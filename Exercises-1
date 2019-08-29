@@ -1,0 +1,95 @@
+I. HITUNG RESULTAN GAYA
+
+ALGORITMA
+1. Tentukan 'm'
+2. Tentukan 'a'
+3. Hitung 'F' menggunakan cara 'm' * 'a'
+4. Tampilkan nilai dari 'F'
+
+PSEUDOCODE
+
+START
+
+STORE `m` with 600
+STORE `a` with 2
+STORE `F` with CALCULATE `m` MULTIPLY BY `a`
+DISPLAY `F`
+
+END
+
+
+II. MENENTUKAN TAHUN KABISAT
+
+ALGORITMA
+1. Menentukan bilangan 'tahun'
+2. Membuat sebuah kondisi
+3. Tentukan jika 'tahun' habis dibagi 4 dan tidak habis dibagi 100 hasilnya adalah 'tahun kabisat'
+4. Tentukan jika 'tahun' habis dibagi 4, habis dibagi 100 dan habis dibagi 400 hasilnya adalah 'tahun kabisat'
+5. Jika bilangan tahun yang ditentukan tidak memenuhi semua kondisi yang telah dibuat, maka bilangan tersebut bukan 'tahun kabisat'
+6. Tampilkan 'tahun kabisat' 
+
+PSEUDOCODE
+
+START
+
+STORE 'tahun' to any number
+    IF 'tahun' MOD 4 EQUALS 0 AND 'tahun' MOD 100 NOT EQUALS 0 OR 
+    IF 'tahun' MOD 4 EQUALS 0 AND 'tahun' MOD 100 EQUALS 0 AND 'tahun' MOD 400 EQUALS 0
+        DISPLAY 'tahun kabisat'
+    ELSE
+        DISPLAY 'bukan tahun kabisat'
+    ENDIF
+    
+END
+
+
+III. MENGHITUNG JUMLAH PAKAIAN KE DALAM MESIN CUCI
+
+ALGORITMA
+1. Tentukan 'angka' 0
+2. Masukkan 1 pakaian secara berulang sampai 20 kali
+3. Tampilkan 'mulai cuci'
+
+PSEUDOCODE
+
+START
+
+STORE 'angka' with value number 0
+WHILE 'angka' < 20
+    IF 'angka < 20 then 
+        DISPLAY 'belum mulai cuci'
+    ELSE 
+        DISPLAY 'mulai cuci'
+    END IF
+    ADD 'angka' BY 1
+END
+
+IV. PERIKSA KUKU
+
+ALGORITMA
+1. TENTUKAN 'murid sudah diperiksa kuku' = 0
+2. Tentukan 'total murid' = 40
+3. Periksa kuku murid 1 per 1
+4. Berhenti periksa ketika 'murid sudah diperiksa kuku' sudah sesuai dengan 'total murid'
+5. Membuat sebuah kondisi jika siswa/siswi memiliki 'kuku panjang' maka akan dihukum
+6. Tampilkan 'dihukum'
+7. Membuat sebuah kondisi jika siswa/siswi memiliki 'kuku pendek' maka akan dipuji
+8. Tampilkan 'dipuji'
+
+PSEUDOCODE
+
+START
+
+STORE 'murid sudah diperiksa kuku' with value number 0
+STORE  'total murid'  40
+WHILE 'murid sudah diperiksa kuku' < 'total murid'
+    IF 'kuku panjang'
+        DISPLAY 'dihukum'
+    ELSE
+        DISPLAY 'dipuji'
+    ENDIF
+    ADD 'murid sudah diperiksa kuku' BY 1 
+END
+
+
+
