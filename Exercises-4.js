@@ -1,5 +1,5 @@
-var tanggal = 21;
-var bulan = 5;
+var tanggal = 30;
+var bulan = 2;
 var tahun = 1950;
 
 switch(bulan) {
